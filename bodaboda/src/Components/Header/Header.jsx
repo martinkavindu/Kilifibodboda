@@ -2,6 +2,12 @@ import React from 'react'
 import { Container,Row , Col } from 'reactstrap'
 import { Link } from 'react-router-dom'
 import '../../styles/Header.css'
+const navLinks =[
+   {
+
+   }
+
+]
 const Header = () => {
   return (
     <header className='header'>
@@ -74,6 +80,11 @@ justify-content-end gap-3'>
             <span className='mobile-menu'>
             <i class="ri-menu-line"></i>
             </span>
+            <div className='navigation'>
+                <div className='menu'>
+
+                </div>
+            </div>
         </div>
     </Container>
 </div>
