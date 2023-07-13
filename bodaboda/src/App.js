@@ -1,11 +1,10 @@
 
 import './App.css';
+import Layout from './Components/Layout/Layout';
 
 function App() {
   return (
-    <div className="App">
-      <h2>hello its me</h2>
-    </div>
+    <Layout/>
   );
 }
 

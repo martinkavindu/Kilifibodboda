@@ -5,3 +5,62 @@
   box-sizing: border-box;
   font-family: 'Open Sans', sans-ser;
 }
+h1,h2,h3,h4,h5,h6{
+  color: #000d6b;
+  font-weight: 600;
+}
+h3,h4{
+  font-size: 1.8rem;
+}
+h5,h6{
+  font-size: 1.2rem;
+}
+a{
+  text-decoration: none;
+  color: unset;
+}
+a:hover{
+  color: unset;
+}
+ul{
+  margin: 0;
+  list-style: none;
+}
+.section-title{
+  color: #000d6b;
+  font-weight: 600;
+  font-size: 2rem;
+}
+.section-subtitle{
+ color: #f9aB26;
+ font-size: 1.2rem;
+ font-weight: 600; 
+}
+.section-description{
+  color:#7cBa97 ;
+  font-size: .9rem;
+  line-height: 30px;
+}
+section{
+  padding: 50px 0px;
+}
+.btn{
+  padding: 7px 15px;
+  background: #000d6b;
+  color: #fff;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+}
+.btn:hover{
+  color: #fff;
+  background: #000d6b;
+}
+@media screen and (max-width:760px) {
+  section{
+    padding: 30px 0px;
+  }
+  .section-title{
+    font-size: 1.1rem;
+  }
+}
