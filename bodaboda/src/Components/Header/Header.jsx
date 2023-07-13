@@ -58,15 +58,23 @@ justify-content-end gap-3'>
                     </div>
                 </div>
             </Col>
-            <Col lg-2 md-3 sm-0>
-                <button className='header-btn btn header-top-right d-flex align-items-center
-justify-content-end text-end'>
+            <Col lg-2 md-3 sm-0 className='text-end'>
+                <button className='header-btn btn '>
                     <Link to='/'>
                     <i class="ri-phone-line"> Request a call </i>
                     </Link>
                 </button>
             </Col>
         </Row>
+    </Container>
+</div>
+<div className='main-navbar'>
+    <Container>
+        <div className='navigation-wrapper d-flex align-items-center justify-content-between'>
+            <span className='mobile-menu'>
+            <i class="ri-menu-line"></i>
+            </span>
+        </div>
     </Container>
 </div>
     </header>
