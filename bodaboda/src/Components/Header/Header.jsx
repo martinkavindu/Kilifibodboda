@@ -1,11 +1,30 @@
 import React from 'react'
-import { Container,Row , Col } from 'reactstrap'
+import { Container,Row , Col, NavLink } from 'reactstrap'
 import { Link } from 'react-router-dom'
 import '../../styles/Header.css'
 const navLinks =[
    {
-
+path : '/home',
+display :'Home'
+   },
+   {
+    path : '/about',
+    display: 'About'
    }
+   ,
+   {
+    path : '/ riders',
+    display :'Riders'
+       },
+       {
+        path : '/blogs',
+        display: 'Blogs'
+       }
+       ,
+       {
+        path:'/contact',
+        display:'Contact'
+       }
 
 ]
 const Header = () => {
@@ -82,8 +101,21 @@ justify-content-end gap-3'>
             </span>
             <div className='navigation'>
                 <div className='menu'>
-
+{
+    navLinks.map((item,index)=>(
+        <NavLink to={item.path} className = 'nav-item'key={index} >
+            {item.display}
+        </NavLink>
+    ))
+}
                 </div>
+            </div>
+            <div className='nav-right'>
+<div className='search-box d-flex align-items-center
+justify-content-end'>
+    <input type='text' id=''name=''placeholder='Search' className='d-flex align-items-center'/>
+    <span><i class="ri-search-line"></i></span>
+</div>
             </div>
         </div>
     </Container>

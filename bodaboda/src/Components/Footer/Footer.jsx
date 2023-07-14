@@ -1,9 +1,12 @@
 
 import React from 'react'
+import { Container, Row, Col } from 'reactstrap';
 
 const Footer = () => {
   return (
-    <div>Footer</div>
+    <div>
+      <h1>martuii</h1>
+    </div>
   )
 }
 
