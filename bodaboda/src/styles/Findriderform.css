@@ -1,0 +1,76 @@
+
+.find-riders-left{
+    background:   linear-gradient(rgba(249, 168, 38, 0.9),rgba(249, 168, 38, 0.9))
+    ,url('../Assets/img/image4.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 65px 35px;
+}
+.form-group{
+    width: 30%;
+    margin-bottom: 0;
+}
+.form-group input{
+    border: 1px solid #7c8a972a;
+    padding: 8px 12px;
+   width: 100%;
+    outline: none;
+
+}
+.form-group input::placeholder{
+    color:#7c8a97
+}
+.form{
+    background: #fff;
+    padding-top: 55px;
+    padding-bottom: 50px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.select-group{
+    width: 30%;
+}
+.select-group select{
+    width: 100%;
+    padding: 10px 15px;
+    border: 1px solid #7c8a972a;
+    outline: none;
+    color: #7c8a97
+}
+.form-row{
+    background: #fff;
+    box-shadow: 5px 5px 15px -5px #7c8a972a;
+
+}
+.find-riders-left h2{
+    font-weight: 600;
+    font-size: 2rem;
+  
+}
+
+.hero-slider-section{
+    position: relative;
+    z-index: 10;
+    margin-bottom: 0px;
+}
+.hero-form{
+    position: relative;
+    z-index: 11;
+    bottom: 150px;
+    width: 100%;
+
+}
+.journey-time::before{
+    content: 'Pick up time';
+    margin-right: 0.8rem;
+    color:#7c8a97;
+}
+.findrider-btn{
+    background: #000d6b !important;
+    color: #fff !important;
+    width: 100%;
+    padding: 8px 15px;
+    border: none;
+    outline: none;
+}
