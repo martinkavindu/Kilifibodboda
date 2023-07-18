@@ -1,0 +1,41 @@
+.blog-item{
+    border: 1px #7c8a972e;
+
+}
+.blog-time{
+    border-top: 1px solid #7c8a972e;
+}
+
+.learn-more{
+    color: #f9a826;
+    font-weight: 600;
+    text-decoration: none;
+    font-size: 1rem;
+} 
+.learn-more:hover{
+color: #f9a826;
+}
+.blog-time span i{
+    color: #f9a826;
+    font-weight: 600;
+
+}
+.blog-author{
+    font-weight: 600;
+    color: #000d6b;
+} 
+.blog-author i{
+    font-weight: 500;
+}
+.blog-title{
+    text-decoration: none;
+    color: #000d6b;
+    font-size: 1.2rem;
+    font-weight: 600;
+    transition: .3s;
+  
+}
+ 
+.blog-title:hover{
+    color: #f9a826;
+}
