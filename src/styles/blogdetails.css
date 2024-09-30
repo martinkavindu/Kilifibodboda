@@ -1,0 +1,25 @@
+.blog-publisher span i{
+    color: #f9a826;
+}
+blockquote{
+    line-height: 35px;
+}
+ .replay i{
+color: #f9a826;
+ }
+ .replay{
+    color: #000d6b;
+   font-weight: 600;
+   cursor: pointer;
+ }
+ .leave-comment-form input,
+ .leave-comment-form textarea{
+     border: 1px solid rgba(0, 12,107, 0.118);
+ }
+ .leave-comment-form textarea:focus{
+outline: none;
+ }
+ .comment-btn{
+    background: #000d6b;
+    color: #fff;
+ }
